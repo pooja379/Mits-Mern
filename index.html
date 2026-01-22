@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <title>Rock Paper Scissors</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+    }
+    h1 {
+      background-color:red;
+      color: white;
+      padding: 15px;
+    }
+    .choices {
+      margin-top: 40px;
+    }
+    .choice {
+      display: inline-block;
+      margin: 20px;
+      padding: 20px;
+      background-color: white;
+      border: 2px solid #333;
+      border-radius: 8px;
+      width: 120px;
+      font-size: 18px;
+    }
+    .choice:hover {
+      background-color: #eee;
+    }
+  </style>
 </head>
 <body>
-    
+
+  <h1>Rock Paper Scissors</h1>
+
+  <div class="choices">
+    <div class="choice">✊ Rock</div>
+    <div class="choice">✋ Paper</div>
+    <div class="choice">✌ Scissors</div>
+  </div>
+
+  <p style="margin-top:40px;">
+    This is a simple static design using only HTML and CSS.<br>
+    (No game logic added — just layout and style)
+  </p>
+
 </body>
 </html>
