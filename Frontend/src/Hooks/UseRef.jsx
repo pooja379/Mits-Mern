@@ -9,8 +9,8 @@ const UseRef = () => {
     setTimeout(()=>{
       setCount(count+1)
     },2000)
-    // value.current=value.current+1;
-
+    value.current=value.current+1;
+  
   },[count])
   useEffect(()=>{
     value.current=value.current+1;

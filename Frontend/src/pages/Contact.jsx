@@ -10,7 +10,7 @@ const Contact = (props) => {
     <div>
       <h1>Name:{name}</h1>
       <button onClick={toggleName}>Toggle</button>
-      <Service name={props.name}/>
+      {/* <Service name={props.name}/> */}
     </div>
   )
 }
