@@ -1,4 +1,4 @@
-// console.log("hello world");
+ //console.log("hello world");
 // var a ;
 // a=10;
 // console.log(a);
@@ -182,8 +182,14 @@
 //     name:"A.pooja",
 //     age:20
 // }
+// var obj="Pooja";
+// for(let val of obj)
+// {
+//     console.log(val);
+// }
 // for (let i in obj)
 // {
+//     console.log(i);
 //     console.log(i,obj[i]);
 // }
 // for(variable variable_name of array_name)
@@ -264,15 +270,19 @@ let arr=[1,2,3,4];
 // {
 //     console.log(result);
 // })
-// var demo=()=>
+// var hello=()=>
 // {
+//     console.log("Hello");
+// }
+// var demo=()=>
+// {   
 //     console.log("I am callback");
 // }
-// var main=(myFunction)=>
+// var main=(demo1)=>
 // {
-//     myFunction()
+//     demo1();
 // }
-// main(demo);
+// main(hello);
 // var promise = new Promise((resolve,reject)=>
 // {
 //     var success =true;

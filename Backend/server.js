@@ -6,12 +6,12 @@ const connectDB=require("./config/db")
 const cors=require("cors")
 dotenv.config();
 connectDB();
-app.use(cors());
 const app=express();
+app.use(cors());
 app.use(express.json())
 app.use("/api/todo",todoRoute);
 app.use("/api/users",userRoute)
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT;
 app.listen(PORT,()=>
 {
     console.log(`Server running on port http:///localhost:${PORT}`)

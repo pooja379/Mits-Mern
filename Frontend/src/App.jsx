@@ -15,6 +15,7 @@ import UseRef from './Hooks/UseRef'
 import UseReducer from './Hooks/UseReducer'
 import UseMemo from './Hooks/UseMemo'
 import UseCallBack from './Hooks/UseCallBack'
+import Todo from './component/Todo'
 const element=<h1>Hello</h1>
 const App = () => {
   return (
@@ -29,6 +30,7 @@ const App = () => {
     <Route path='/contact'element={<Contact/>}/>
     <Route path='/login' element={<Login/>}/>
     <Route path='/signedup' element={<Signedup/>}/>
+    <Route path='/todo' element={<Todo/>}/>
 
     <Route path='/hook' element={<Hook/>}>
     <Route path='useState'element={<UseState/>}/>
@@ -43,4 +45,4 @@ const App = () => {
    </>
   )
 }
-export default App
+export default App 
