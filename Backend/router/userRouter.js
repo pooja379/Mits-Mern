@@ -6,4 +6,4 @@ userRoute.get("/:id",getUserById);
 userRoute.post("/create",createUser);
 userRoute.put("/update/:id",editUser);
 userRoute.delete("/delete/:id",deleteUser);
-module.exports=userRoute;
+module.exports=userRoute; 
